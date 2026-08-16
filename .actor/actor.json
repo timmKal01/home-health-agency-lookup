@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "home-health-agency-lookup",
+    "title": "Home Health Agency Lookup — CMS Star Ratings",
+    "description": "Search U.S. home health agencies by name or state and get their official CMS quality-of-care star rating, services offered, and Medicare spending/readmission performance vs. the national rate.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

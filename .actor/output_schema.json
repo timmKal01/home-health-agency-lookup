@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Home Health Agency Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Agencies",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
