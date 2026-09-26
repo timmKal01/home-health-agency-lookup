@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "city",
+                    "state",
+                    "zipCode",
+                    "phone",
+                    "ownershipType",
+                    "qualityOfPatientCareRating",
+                    "medicareSpendingRatio",
+                    "dischargeToCommunityVsNational",
+                    "preventableReadmissionsVsNational",
+                    "certificationDate",
+                    "facilityId"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "city": {
+                        "label": "City",
+                        "format": "text"
+                    },
+                    "state": {
+                        "label": "State",
+                        "format": "text"
+                    },
+                    "zipCode": {
+                        "label": "Zip code",
+                        "format": "text"
+                    },
+                    "phone": {
+                        "label": "Phone",
+                        "format": "text"
+                    },
+                    "ownershipType": {
+                        "label": "Ownership type",
+                        "format": "text"
+                    },
+                    "qualityOfPatientCareRating": {
+                        "label": "Quality of patient care rating",
+                        "format": "number"
+                    },
+                    "medicareSpendingRatio": {
+                        "label": "Medicare spending ratio",
+                        "format": "number"
+                    },
+                    "dischargeToCommunityVsNational": {
+                        "label": "Discharge to community vs national",
+                        "format": "text"
+                    },
+                    "preventableReadmissionsVsNational": {
+                        "label": "Preventable readmissions vs national",
+                        "format": "text"
+                    },
+                    "certificationDate": {
+                        "label": "Certification date",
+                        "format": "text"
+                    },
+                    "facilityId": {
+                        "label": "Facility ID",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
