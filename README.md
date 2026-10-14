@@ -77,5 +77,5 @@ search returns 0 agencies or 100.
 
 ## Related products
 
-- [Nursing Home Quality Lookup](https://github.com/timmKal01/nursing-home-quality-lookup) — the long-term/residential care equivalent
-- [Hospital Quality Lookup](https://github.com/timmKal01/hospital-quality-lookup) — the acute-care hospital equivalent
+- [Nursing Home Ratings Lookup](https://apify.com/m_ctim/nursing-home-quality-lookup): the long-term/residential care equivalent
+- [Hospital Star Ratings Lookup](https://apify.com/m_ctim/hospital-quality-lookup): the acute-care hospital equivalent
